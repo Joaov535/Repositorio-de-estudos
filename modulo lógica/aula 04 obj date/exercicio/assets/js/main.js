@@ -85,7 +85,7 @@ function escopo() {
     const diaSemTxt = diaSemana(semana);
 
     //Alterando o HTML
-    const paragrafo = document.querySelector('#infoDia')
+    const paragrafo = document.querySelector('.container h1')
     paragrafo.innerHTML = `${diaSemTxt}, ${dia} de ${mesTxt} de ${ano} ${hora}:${minutos}`;
 }
 
