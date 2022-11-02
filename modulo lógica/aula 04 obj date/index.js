@@ -1,5 +1,5 @@
 //     sem parâmetro pega dia atual
-const data = new Date('2017-04-21 19:30:45.350');
+const data = new Date('2017-04-21 19:05:45.350');
 console.log('DIa', data.getDate());
 console.log('Mês', data.getMonth());
 console.log('Ano', data.getFullYear());
