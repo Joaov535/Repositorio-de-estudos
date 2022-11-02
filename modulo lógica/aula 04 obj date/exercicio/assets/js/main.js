@@ -1,11 +1,13 @@
 function escopo() {
 
+    //Variáveis 
     const data = new Date();
     const dia = data.getDate();
     const hora = data.getHours();
     const minutos = data.getMinutes();
     const ano = data.getFullYear();
 
+    //Retornando o nome dos meses
     function txtMes(mes) {
         let textoMes;
 
@@ -48,12 +50,10 @@ function escopo() {
                 return textoMes;
         };
     };
-    
-
     const mes = data.getMonth();
     const mesTxt = txtMes(mes);
-    console.log(mesTxt);
 
+    //Retornando os nomes dos dias
     function diaSemana(numDia) {
         let diaSemTexto;
 
@@ -81,13 +81,11 @@ function escopo() {
                 return diaSemTexto;
         };
     };
-
     const semana = data.getDay();
     const diaSemTxt = diaSemana(semana);
-    console.log(diaSemTxt);
 
+    //Alterando o HTML
     const paragrafo = document.querySelector('#infoDia')
-    paragrafo.innerHTML = `${diaSemTxt}, ${dia} de ${mesTxt} de ${ano} ${hora}:${minutos}`
-
+    paragrafo.innerHTML = `${diaSemTxt}, ${dia} de ${mesTxt} de ${ano} ${hora}:${minutos}`;
 }
 
