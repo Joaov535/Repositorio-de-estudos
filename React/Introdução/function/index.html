@@ -1,0 +1,70 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    
+    <div id="area">
+        Bem Vindo ... </br>  </br>
+    </div>
+ 
+    <button onclick="document.getElementById('area').innerHTML = 'Bem Vindo ' + prompt('Qual seu nome? ');">Entrar</button> </br></br>
+
+    <div>
+        Dê um nome ao botão </br></br>
+    </div>
+
+    <button onclick="this.innerHTML = prompt('Qual o nome do botão?')">Qual meu nome?</button>
+</body>
+</html> -->
+
+<!-- Função -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>function</title>
+</head>
+<body>
+    
+    <div id="area">
+        Bem Vindo...
+    </div>
+
+    <br><br>
+    
+    <button onclick="entrar()">Entrar</button>
+
+    <!-- Sobrenome, por parametro-->
+
+    <div id="area2">
+        Bem Vindo...
+    </div>
+
+    <br><br>
+    
+    <button onclick="entrar2('Lucas')">Entrar</button>
+
+    <!-- idade, por parametro -->
+
+    <div id="area3">
+        Bem Vindo...
+    </div>
+
+    <br><br>
+    
+    <button onclick="entrar3('Lucas Silva')">Entrar</button>
+
+</body>
+</html>
+
