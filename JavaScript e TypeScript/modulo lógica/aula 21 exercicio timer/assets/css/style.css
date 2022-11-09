@@ -29,6 +29,8 @@ body {
 
 .cronometro{
   font-size: 50pt;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .parado {
