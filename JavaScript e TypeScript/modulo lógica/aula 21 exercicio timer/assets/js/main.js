@@ -13,20 +13,20 @@ function meuTimer() {
     let cron;
 
     // Criando eventos quando clicar
-    iniciar.addEventListener('click', function () {
+    iniciar.addEventListener('click', () => {
         cron = setInterval(() => { timer(); }, 1000);
         cronometro.classList.remove('parado')
         console.log('Iniciou');
     });
 
-    pausar.addEventListener('click', function () {
+    pausar.addEventListener('click', () => {
         clearInterval(cron);
         cronometro.classList.add('parado')
         console.log('parou');
 
     });
 
-    zerar.addEventListener('click', function () {
+    zerar.addEventListener('click', () => {
         clearInterval(cron);
         h = 0;
         m = 0;
@@ -38,7 +38,7 @@ function meuTimer() {
     });
 
     // Função timer
-    function timer() {
+    const timer = () => {
         // Formatando o tempo
         let formato = `${h < 10 ? '0' + h : h}:${m < 10 ? '0' + m : m}:${s < 10 ? '0' + s : s} `
 
