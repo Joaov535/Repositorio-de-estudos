@@ -58,7 +58,7 @@ function meuEscopo() {
             el.parentElement.remove();
             salvarLista();
         };
-    });
+     });
 
     // Função para salvar os itens adicionados na lista
     const salvarLista = () => {
