@@ -65,6 +65,14 @@
 // console.log(caneca);
 
 
-const produto = {nome: 'Produto', preço: 4.50, material: 'Porcelana', estoque: 50};
-console.log(Object.getOwnPropertyDescriptor(produto, 'nome')) // obj e a propriedade q deseja ver
+// const produto = {nome: 'Produto', preço: 4.50, material: 'Porcelana', estoque: 50};
+// console.log(Object.getOwnPropertyDescriptor(produto, 'nome')) // obj e a propriedade q deseja ver
 
+const produto = {nome: 'Produto', preço: 4.50, material: 'Porcelana', estoque: 50};
+// console.log(Object.keys(produto)); // mostra as chaves
+// console.log(Object.values(produto)); // mostra os valores
+// console.log(Object.entries(produto)); // mostra chaves e valores
+// Fazendo destructuring com for of
+for (const [chave, valor] of Object.entries(produto)) {
+    console.log(chave, valor);
+}
