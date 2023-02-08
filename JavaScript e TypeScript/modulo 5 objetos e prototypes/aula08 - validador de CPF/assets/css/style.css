@@ -19,11 +19,12 @@ body {
 }
 
 .container {
-  max-width: 640px;
+  max-width: 600px;
   margin: 50px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 form input, form label, form button {

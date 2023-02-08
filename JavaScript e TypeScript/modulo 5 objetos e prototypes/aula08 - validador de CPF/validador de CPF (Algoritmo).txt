@@ -1,16 +1,36 @@
-// Conta usada pelo governo para validar um CPF
+ Conta usada pelo governo para validar um CPF
 
-// CPF: 705.484.450-52
+ CPF: 705.484.450-52
 
-//      7  0  5  4  8  4  4  5  0
-//    x10  9  8  7  6  5  4  3  2
-// SR: 70  0 40 28 48 20 10 15  0 = 240 *SR = soma do resultado
+      7  0  5  4  8  4  4  5  0
+    x10  9  8  7  6  5  4  3  2
+ SR: 70  0 40 28 48 20 10 15  0 = 240 *SR = soma do resultado
 
-// 11 - (SR % 11) = (Penultimo Dígito)
+ 11 - (SR % 11) = (Penultimo Dígito)
 
 
-//       7  0  5  4  8  4  4  5  0  5
-//     x11 10  9  8  7  6  5  4  3  2
-// SR2: 77  0 45 32 56 24 20 20  0 10 = 284
+       7  0  5  4  8  4  4  5  0  5
+     x11 10  9  8  7  6  5  4  3  2
+ SR2: 77  0 45 32 56 24 20 20  0 10 = 284
 
-// 11 - (SR2 % 11) = (Último Dígito)
+ 11 - (SR2 % 11) = (Último Dígito)
+
+ Passo 1:
+ criar input para digitar o CPF
+ Criar botão para executar a validação
+
+ Passo 2:
+ captuar o evento de click do botão
+
+ Passo  :
+ Receber o valor digitado no input e guardar em uma variável
+
+ Passo:  :
+ Formatar o valor guardado na variável e passar para um array como cada número sendo um índice.
+
+ Passo 3:
+ escrever a função para o calculo de validação de CPF
+ e retornar o resultado
+
+
+ 
