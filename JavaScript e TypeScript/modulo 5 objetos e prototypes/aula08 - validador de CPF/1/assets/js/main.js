@@ -17,16 +17,23 @@ function escopoGlobal() {
 
     // Função click acionado
     function validar() {
+
         numCPF = inputCPF.value;
         limpoCPF = numCPF.replace(/\D+/g, '');
-
-
-
+        
+        
+        
         if (valido() === true) {
             resultado.innerHTML = 'CPF Válido!'
+        } else {
+            resultado.innerHTML = 'CPF Inválido!'
         }
 
         function valido() {
+
+            // verificando se o valor é valido para um CPF
+            if(typeof limpoCPF == 'undefined') return false;
+            if (limpoCPF.length !== 11) return false;
 
             // modelo de laço (Precisa ajustar)
             let x = 10;
@@ -61,7 +68,7 @@ escopoGlobal();
 
 
 
-// outra ideia 
+// outra ideia
 
 // let a1 = limpoCPF[0];
 // let a2 = limpoCPF[1];
