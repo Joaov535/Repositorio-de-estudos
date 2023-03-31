@@ -16,5 +16,5 @@ function Pessoa(nome, sobrenome) {
 }
 
 const P1 = new  Pessoa('João', 'Victor'); // Sempre usar o operador new
-//P1.nomeCompleto();
-console.log(typeof P1);
+P1.nomeCompleto();
+console.log(P1);

@@ -13,5 +13,5 @@ console.log(maisVelha);
 
 function callback(acumulador, valor) {
     if(acumulador.idade > valor.idade) return acumulador;
-    return valor;
+    // return valor;
 };
