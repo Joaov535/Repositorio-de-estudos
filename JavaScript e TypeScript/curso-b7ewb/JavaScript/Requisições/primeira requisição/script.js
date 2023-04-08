@@ -4,14 +4,18 @@ let res = document.querySelector('.res');
 
 
 botao.addEventListener('click', () => {
-    console.log('Clicou')
+    console.log('Clicou');
+    // then() é utilizado quando há uma promise
+    // ou seja, quando a resposta chegar será executado o then()
     fetch('https://jsonplaceholder.typicode.com/users').then((response) => {
         return response.json();
     }).then((data) => {
         console.log(data)
         criaBtn();
         document.querySelector('#btnRes').addEventListener('click', () => {
-            res.innerHTML = `</br>Nome: ${data[0].name}`;
+            for(let i in data) {
+                res.innerHTML += `</br>Nome: ${data[i].name}`;
+            }
         })
     })
 })
