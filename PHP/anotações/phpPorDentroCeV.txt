@@ -1,0 +1,12 @@
+<!DOCTYPE html> informa para o navegador qual versão é o html
+<html lang="pt-br"> informa a lingua que está o documento
+    <head> informações iniciais da página
+        <meta charset="UTF-8"> configuração para suportar caracteres e acentuações
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> informa para o navegador que o site deve ocupar 100% da largura do dispositivo ou janela do navegador e comece com a aescala em 1
+
+    </head>
+    <body> conteúdo da página
+
+    <?php  ?> Super tag PHP
+
+    </body>
