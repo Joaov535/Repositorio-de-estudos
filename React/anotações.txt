@@ -1,0 +1,27 @@
+npm é um gerenciador de pacotes
+
+Como funciona o React
+O Reac trabalha com um "DOM Virtual"
+As mudanças aplicadas no virtual DOM são comparadas com o verdadeiro DOM e apenas as diferenças são aplicadas
+
+SPA = Single Page Aplication
+_______________________________________________________________
+
+Diferenças entre CRA e Vite
+
+CRA
+pasta Public temos o arquivo index.html que no corpo possui apenas uma div root, onde todo o site montado m JS é carregado.
+No arquivo index.tsx a div root é selecionada e o conteúdo é carregado dentro dela.Esse arquivo serve para carregar o projeto e "jogar" na tela.
+
+Vite
+O arquivo index.html não fica dentro da pasta public, no index temos também uma div root que sera carregado todo o site e o link para o arquivo JS.
+No arquivo main.tsx a div root é selecionada e o conteúdo é carregado dentro dela. Esse arquivo serve para carregar o projeto e "jogar" na tela.
+
+________________________________________________________________
+
+Quando criamos um projeto, primeiramente mexemos no app.tsx.
+
+É necessário exportar um arquivo para que ele possa ser importado futuramente
+
+
+

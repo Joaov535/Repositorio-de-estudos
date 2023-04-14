@@ -1,0 +1,13 @@
++----------------+
+| UTILIZAR O CMD |
++----------------+
+________________________________________________________
+
+código para gerar o arquivo js 
+
+tsc nomeDoArquivo.ts 
+_________________________________________________________
+
+código para gerar o arquivo js apenas se não tiver erro
+
+tsc nomeDoArquivo.ts --noEmitOnError

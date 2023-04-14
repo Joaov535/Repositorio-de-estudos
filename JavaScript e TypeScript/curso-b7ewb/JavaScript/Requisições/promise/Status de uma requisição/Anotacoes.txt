@@ -1,0 +1,24 @@
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+Códigos de status de respostas HTTP
+Os códigos de status das respostas HTTP indicam se uma requisição HTTP foi corretamente concluída. As respostas são agrupadas em cinco classes:
+
+Respostas de informação (100-199),
+Respostas de sucesso (200-299),
+Redirecionamentos (300-399)
+Erros do cliente (400-499)
+Erros do servidor (500-599).
+
+Principais status de requisições
+
+400 Bad Request
+Essa resposta significa que o servidor não entendeu a requisição pois está com uma sintaxe inválida.
+
+403 Forbidden
+O cliente não tem direitos de acesso ao conteúdo portanto o servidor está rejeitando dar a resposta. Diferente do código 401, aqui a identidade do cliente é conhecida.
+
+404 Not Found
+O servidor não pode encontrar o recurso solicitado. Este código de resposta talvez seja o mais famoso devido à frequência com que acontece na web.
+
+500 Internal Server Error
+O servidor encontrou uma situação com a qual não sabe lidar.
