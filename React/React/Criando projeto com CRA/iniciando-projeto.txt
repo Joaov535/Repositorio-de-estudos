@@ -1,3 +1,0 @@
-npm install npm@latest –g atualizar node
-
-Abra a pasta no terminal e digite: npx create-react-app nome-da-pasta --template typescript

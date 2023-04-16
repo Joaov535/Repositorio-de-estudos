@@ -1,2 +1,0 @@
-iniciar projeto com Vite: npm init vite nome-da-pasta -- --template react-ts
-
