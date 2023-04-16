@@ -9,3 +9,4 @@ if(empty($nome)) {
     $_SESSION['nome'] = $nome;
 };
 header('location:index.php');
+?>
