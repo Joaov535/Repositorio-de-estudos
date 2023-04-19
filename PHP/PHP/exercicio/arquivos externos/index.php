@@ -33,8 +33,8 @@ unset($_SESSION['aviso']);
         <?php
         $lista = file_get_contents('nomes.txt');
         $nomes_arr = explode(', ', $lista);
-        for($n = count($nomes_arr) - 1; 0 <= $n; $n -= 1) {
-            echo '<li>'.$nomes_arr[$n].'</li>';
+        foreach($nomes_arr as $item) {
+            echo '<li>'.$item.'</li>';
             }
             ?>
     </ul>
